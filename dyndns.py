@@ -47,7 +47,7 @@ def main():
     
     # Try and find the resource
     res = execute('domain.resource.list',{
-        'ResourceID': FIJI_RESOURCE,
+        'ResourceID': RESOURCE,
         'DOMAINID': DOMAINID})['DATA'][0]
     public = ip()
     # If the IP is the same don't bother changing it
